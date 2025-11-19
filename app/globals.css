@@ -1,0 +1,5 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* minimal custom utilities allowed: center content horizontally in cards */
