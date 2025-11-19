@@ -1,15 +1,13 @@
-Recipes Blog (Sling Academy API)
---------------------------------
-
-Features:
-- Next.js app (app directory) with Tailwind CSS for styling (no custom global CSS except tailwind base).
-- Fetches up to 20 blog posts from Sling Academy sample API.
-- Listing page: responsive grid (3 columns desktop, 2 tablet, 1 mobile). Image left, details right.
-- Pagination with Prev/Next and max 3 page buttons.
-- Entire card is clickable using Next.js <Link>.
-- Dynamic route for each post showing centered details.
-- Fixed footer, header with About/Service/Contact pages (Contact has a simple form).
-- Limit to 20 posts.
+Blog Listing App – Next.js 14 (Sling Academy API)
+This is a server-side rendered blog listing application built using Next.js 14 (App Router) and Tailwind CSS.
+The project fetches blog posts from the Sling Academy Sample Blog API and displays them in a clean, responsive 3-per-row layout.
+The app includes:
+A blog listing page with pagination
+Dynamic route pages for viewing individual blog posts
+A sticky header with links to Home, About, Services, and Contact(simple form)
+Simple static pages (About, Services, Contact) built as server components.
+All components are implemented as server components with minimal css(Focused much on features in Nextjs 14 and functionality).
+This repository contains the complete source code for the assignment along with deployment-ready configuration.
 
 To run:
 1. npm install
